@@ -1,4 +1,7 @@
-## Opdracht Caching the Inverse of a Matrix.
+## Assignment "Caching the Inverse of a Matrix". The following two function caclulate the
+## inverste of a matrix in two steps. The first functino creates a special matrix. The second
+## function calculates the inverse of the matrix by reading the cached value or, if not
+## available compute it.
 
 ## This function creates a special "matrix" object that can cache its inverse
 makeCacheMatrix <- function(x = matrix()) {
